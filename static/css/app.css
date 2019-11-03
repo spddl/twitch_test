@@ -1,0 +1,34 @@
+/* @import url('https://fonts.googleapis.com/css?family=Inconsolata|Fira+Code|Anonymous+Pro|IBM+Plex+Mono|Roboto+Mono|B612+Mono|Cousine&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|IBM+Plex+Sans|Roboto|Work+Sans|Montserrat|Muli|Nunito+Sans|Rubik|Source+Sans+Pro|Poppins|Open+Sans|Arimo|Hind&display=swap');
+
+.line_ {
+  /* top | right | bottom | left */
+  margin: 0 0 0 8px;
+  word-break: break-all;
+  
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.line {
+  /* top | right | bottom | left */
+  margin: 0 0 0 8px;
+}
+
+
+/* .placeholder {
+  display: inline-block;
+  height: 1em;
+  background-color: #DDD;
+} */
+
+.text-list {
+  color: rgba(255,255,255,.7);
+}
+
+.emoticon {
+  margin: -.5rem 0;
+  position: relative;
+  vertical-align: middle;
+}
