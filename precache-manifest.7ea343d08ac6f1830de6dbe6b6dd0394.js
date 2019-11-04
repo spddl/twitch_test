@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d84a3021c526402c4f959899e60cbfd9",
+    "revision": "621b43b0abf84279269e1083046c7e6f",
     "url": "/index.html"
   },
   {
-    "revision": "82fb724fd00ce07c094f",
+    "revision": "558c18ff60cc02673ab0",
     "url": "/static/css/main.42341871.chunk.css"
   },
   {
@@ -12,11 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d66c5a37.chunk.js"
   },
   {
-    "revision": "82fb724fd00ce07c094f",
-    "url": "/static/js/main.db2c2502.chunk.js"
+    "revision": "558c18ff60cc02673ab0",
+    "url": "/static/js/main.2353806a.chunk.js"
   },
   {
     "revision": "3e7d100673efc5d8259b",
     "url": "/static/js/runtime-main.1062be0f.js"
+  },
+  {
+    "revision": "5f80eca1d805425ff67f53ef32fd69af",
+    "url": "/static/media/TwitchGlitchWhite.5f80eca1.svg"
   }
 ]);

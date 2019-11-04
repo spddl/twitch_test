@@ -1,6 +1,6 @@
 {
-  "short_name": "Logein",
-  "name": "Logein",
+  "short_name": "TCV",
+  "name": "TwitchChatViewer",
   "icons": [
     {
       "src": "/static/img/favicon.ico",
@@ -8,22 +8,22 @@
       "sizes": "64x64 32x32 24x24 16x16"
     },
     {
-      "src": "/static/img/hot-beverage-144.png",
+      "src": "/static/img/logo-144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/static/img/hot-beverage-192.png",
+      "src": "/static/img/logo-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/static/img/hot-beverage-240.png",
+      "src": "/static/img/logo-240.png",
       "type": "image/png",
       "sizes": "240x240"
     },
     {
-      "src": "/static/img/hot-beverage-512.png",
+      "src": "/static/img/logo-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
