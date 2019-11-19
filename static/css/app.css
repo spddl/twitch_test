@@ -16,6 +16,20 @@
   margin: 0 0 0 8px;
 }
 
+.line_right {
+  /* top | right | bottom | left */
+  margin: 0 8px 0 0;
+}
+
+.line_left {
+  /* top | right | bottom | left */
+  margin: 0 0 0 8px;
+}
+
+.line_both {
+  /* top | right | bottom | left */
+  margin: 0 8px 0 8px;
+}
 
 /* .placeholder {
   display: inline-block;

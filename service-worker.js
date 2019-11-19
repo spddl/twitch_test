@@ -3,14 +3,19 @@
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js')
 
+workbox.core.setCacheNameDetails({
+  prefix: 'TCV',
+  suffix: 'v1'
+})
+
 // Emotes, Badges
 workbox.routing.registerRoute(
   /^(https:\/\/static-cdn.jtvnw.net\/badges\/v1\/*|http:\/\/static-cdn.jtvnw.net\/emoticons\/v1\/*|http:\/\/cdn.frankerfacez.com\/*|http:\/\/cdn.betterttv.net\/emote\/*|)/,
   new workbox.strategies.CacheFirst({
     cacheName: 'badgesTwitchTv',
     cacheExpiration: {
-      maxAgeSeconds: 60 * 60 * 3, // cache the news content for 3 hours
-      maxEntries: 100
+      maxAgeSeconds: 60 * 60 * 3, // cache the content for 3 hours
+      maxEntries: 40
     }
   })
 )
@@ -21,8 +26,8 @@ workbox.routing.registerRoute(
   new workbox.strategies.CacheFirst({
     cacheName: 'badgesAPITwitchTv',
     cacheExpiration: {
-      maxAgeSeconds: 60 * 60 * 3, // cache the news content for 3 hours
-      maxEntries: 100
+      maxAgeSeconds: 60 * 60 * 3, // cache the content for 3 hours
+      maxEntries: 40
     }
   })
 )
@@ -55,23 +60,23 @@ workbox.routing.registerRoute(
 workbox.precaching.precacheAndRoute([
   {
     "url": "asset-manifest.json",
-    "revision": "46a99ffd2864df1cc9f3bbbaac099e6f"
+    "revision": "a6df2f73507883d74e3577707fa1db28"
   },
   {
     "url": "index.html",
-    "revision": "234c9b876f404a49ead26395579d0197"
+    "revision": "6ca9536a4bd2c868c02f1a48a03cc3fb"
   },
   {
     "url": "manifest.json",
     "revision": "f4cdbb27c59ae81067ccb3061c878db2"
   },
   {
-    "url": "precache-manifest.08bdf15cae395546b57ba4d3bb2d370b.js",
-    "revision": "08bdf15cae395546b57ba4d3bb2d370b"
+    "url": "precache-manifest.85573730fe20bdf3a57d55c4d06d5147.js",
+    "revision": "85573730fe20bdf3a57d55c4d06d5147"
   },
   {
     "url": "static/css/app.css",
-    "revision": "94406e44fd9865022be87b8d63c22418"
+    "revision": "1ed8b05166e0e1157ba0f9f0e5a64f70"
   },
   {
     "url": "static/css/bootstrap.min.css",
@@ -114,12 +119,12 @@ workbox.precaching.precacheAndRoute([
     "revision": "5ab6e0bcf809d4feef1a6f26c5ad0aeb"
   },
   {
-    "url": "static/js/main.02539c20.chunk.js",
-    "revision": "eaae80573577dba8acdc9ddabb189543"
+    "url": "static/js/main.07bb77dd.chunk.js",
+    "revision": "3454404c7ee0781be46c0f9d4e62e0c5"
   },
   {
-    "url": "static/js/main.02539c20.chunk.js.map",
-    "revision": "fab01cf3ff15f946b1694be5a3d05ab3"
+    "url": "static/js/main.07bb77dd.chunk.js.map",
+    "revision": "fa9a795b7b699c2e55fee3948fd3774b"
   },
   {
     "url": "static/js/runtime-main.d17e4adc.js",
